@@ -1,5 +1,9 @@
 extends layout
 
-block content
-  h1= title
+block content2
+  h1= title+' '+mdata
   p Welcome to #{title}
+
+block content
+  h1= mdata
+  p Welcome to #{mdata}
